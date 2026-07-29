@@ -19,3 +19,11 @@
 
 * Continue placing components on PCB (~2h)
 * Route the PCB (~1h 30m)
+
+## 2026-07-29: PCB design
+
+![PCB - all components fixed](assets/screenshot-007.png)
+![PCB - 3d render](assets/screenshot-006.png)
+
+* Fix footprints, add 3d models (~30m)
+* Export gerbers and BOM (~5m)

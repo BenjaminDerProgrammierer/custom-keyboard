@@ -7432,7 +7432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 24.13 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10393,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 201.93 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10828,7 +10828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.5u"
 			(at 24.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14173,7 +14173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 36.83 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15844,7 +15844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 176.53 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17703,7 +17703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 214.63 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19226,7 +19226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 189.23 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -20900,7 +20900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 49.53 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -21795,7 +21795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 24.13 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -22850,7 +22850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u"
 			(at 24.13 66.04 0)
 			(hide yes)
 			(show_name no)

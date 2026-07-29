@@ -1,0 +1,62 @@
+#VRML V2.0 utf8
+
+# Footprint-aligned representation of a vertically mounted 2u stabilizer.
+# VRML coordinates use KiCad's 2.54 mm unit.
+DEF StabMaterial Appearance {
+  material Material {
+    diffuseColor 0.72 0.74 0.76
+    specularColor 0.35 0.35 0.35
+    shininess 0.35
+  }
+}
+
+# Upper housing and stem.
+Transform {
+  translation 0.25 -4.6875 1.77165
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 6.10236 2.75591 3.54331 }
+    }
+  ]
+}
+Transform {
+  translation 0.25 -4.6875 4.13386
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 1.57480 1.57480 1.18110 }
+    }
+  ]
+}
+
+# Lower housing and stem.
+Transform {
+  translation 0.25 4.6875 1.77165
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 6.10236 2.75591 3.54331 }
+    }
+  ]
+}
+Transform {
+  translation 0.25 4.6875 4.13386
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 1.57480 1.57480 1.18110 }
+    }
+  ]
+}
+
+# Connecting wire, offset toward the outer edge like a PCB-mount stabilizer.
+Transform {
+  translation -2.16535 0 0.39370
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 0.47244 9.375 0.39370 }
+    }
+  ]
+}

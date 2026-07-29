@@ -1,0 +1,82 @@
+#VRML V2.0 utf8
+
+# Transparent, tapered ISO Enter shell following the footprint's reverse-L
+# outline. Two overlapping convex shells are used because KiCad's VRML
+# renderer does not reliably triangulate a single concave face.
+DEF KeycapAppearance Appearance {
+  material Material {
+    diffuseColor 0.55 0.78 0.95
+    emissiveColor 0.02 0.03 0.04
+    specularColor 0.9 0.95 1.0
+    shininess 0.8
+    transparency 0.58
+  }
+}
+
+# Upper, wider part of the ISO Enter key.
+Transform {
+  translation -0.9375 3.65 0
+  children [
+    Shape {
+      appearance USE KeycapAppearance
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            -5.42815 -3.75    4.52756,
+             5.42815 -3.75    4.52756,
+             5.42815  3.75    4.52756,
+            -5.42815  3.75    4.52756,
+            -4.72441 -3.14961 7.28346,
+             4.72441 -3.14961 7.28346,
+             4.72441  3.14961 7.28346,
+            -4.72441  3.14961 7.28346
+          ]
+        }
+        coordIndex [
+          0, 3, 2, 1, -1,
+          4, 5, 6, 7, -1,
+          0, 1, 5, 4, -1,
+          1, 2, 6, 5, -1,
+          2, 3, 7, 6, -1,
+          3, 0, 4, 7, -1
+        ]
+        creaseAngle 0.5
+        solid FALSE
+      }
+    }
+  ]
+}
+
+# Lower, narrower vertical part.
+Transform {
+  translation 0 -3.65 0
+  children [
+    Shape {
+      appearance USE KeycapAppearance
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            -4.49065 -3.75    4.52756,
+             4.49065 -3.75    4.52756,
+             4.49065  3.75    4.52756,
+            -4.49065  3.75    4.52756,
+            -3.90010 -3.14961 7.28346,
+             3.90010 -3.14961 7.28346,
+             3.90010  3.14961 7.28346,
+            -3.90010  3.14961 7.28346
+          ]
+        }
+        coordIndex [
+          0, 3, 2, 1, -1,
+          4, 5, 6, 7, -1,
+          0, 1, 5, 4, -1,
+          1, 2, 6, 5, -1,
+          2, 3, 7, 6, -1,
+          3, 0, 4, 7, -1
+        ]
+        creaseAngle 0.5
+        solid FALSE
+      }
+    }
+  ]
+}
