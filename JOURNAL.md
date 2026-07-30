@@ -27,3 +27,10 @@
 
 * Fix footprints, add 3d models (~30m)
 * Export gerbers and BOM (~5m)
+
+## 2026-07-29: Custom components
+
+![PCB with mounting holes and custom components](assets/screenshot-008.png)
+
+* add OLED display, Rotary Encoder, and fn key (~1h 30m)
+* add mounting holes (~30m)

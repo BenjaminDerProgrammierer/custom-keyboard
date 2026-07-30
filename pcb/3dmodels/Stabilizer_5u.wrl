@@ -1,0 +1,62 @@
+#VRML V2.0 utf8
+
+# Footprint-aligned representation of a horizontal 5u stabilizer.
+# Housing centers match the footprint's +/-38.1 mm mounting positions.
+DEF StabMaterial Appearance {
+  material Material {
+    diffuseColor 0.72 0.74 0.76
+    specularColor 0.35 0.35 0.35
+    shininess 0.35
+  }
+}
+
+# Left housing and stem.
+Transform {
+  translation -15 0.25 1.77165
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 2.75591 6.10236 3.54331 }
+    }
+  ]
+}
+Transform {
+  translation -15 0.25 4.13386
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 1.57480 1.57480 1.18110 }
+    }
+  ]
+}
+
+# Right housing and stem.
+Transform {
+  translation 15 0.25 1.77165
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 2.75591 6.10236 3.54331 }
+    }
+  ]
+}
+Transform {
+  translation 15 0.25 4.13386
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 1.57480 1.57480 1.18110 }
+    }
+  ]
+}
+
+# Connecting wire.
+Transform {
+  translation 0 -2.16535 0.39370
+  children [
+    Shape {
+      appearance USE StabMaterial
+      geometry Box { size 30 0.47244 0.39370 }
+    }
+  ]
+}
