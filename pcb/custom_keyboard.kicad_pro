@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "custom_keyboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

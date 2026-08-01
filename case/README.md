@@ -1,8 +1,5 @@
-# Onshape project directory
+# Onshape project export directory
 
-## Adding case files
+[View my onshape project here](https://cad.onshape.com/documents/79eabb8dc9f468c958f379de/w/43301b686be9b350d744fb77/e/7cf8c5e329865d698f6473ac).
 
-* In your Onshape document, right-click the part or assembly you want to export
-* Select Export
-* Choose STEP format, set units to mm, and click Export
-* Commit the exported files to your repo
+Alternatively, you can use the exported files in this directory.

@@ -34,3 +34,10 @@
 
 * add OLED display, Rotary Encoder, and fn key (~1h 30m)
 * add mounting holes (~30m)
+
+## 2026-07-31: Design Case
+
+![Case Design in Onshape](assets/screenshot-009.png)
+![Sliced Case](assets/screenshot-010.png)
+
+* Design the case for the keyboard (~1h 30m)
