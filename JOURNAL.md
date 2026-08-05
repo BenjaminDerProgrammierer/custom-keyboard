@@ -41,3 +41,7 @@
 ![Sliced Case](assets/screenshot-010.png)
 
 * Design the case for the keyboard (~1h 30m)
+
+## 2026-08-05: BOM and Submission
+
+* Finalize BOM, and submit the project for a grant (~1h)

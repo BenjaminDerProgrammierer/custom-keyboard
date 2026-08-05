@@ -1,0 +1,9 @@
+Part,Quantity,PackQuantity,PriceUSD,Link,Notes
+Raspberry Pi Pico,1,1,9.34,https://amzn.eu/d/05j1KStX,
+1N4148 Diode,87,100,5.81,https://amzn.eu/d/0eLkkfi4,
+EC11 Rotary Encoder,1,10,12.33,https://amzn.eu/d/0akEk5m6,
+0.91" OLED Display,1,1,6.7,https://amzn.eu/d/095Z39cg,
+PCB,1,5,47.17,,JLCPCB see submission/pcb_order.png,
+MX Switch,86,90,51.23,https://amzn.eu/d/0a2MXvMT,
+MX Stabilizers,6,8,13.07,https://amzn.eu/d/04WCo8ej,
+TOTAL,,,145.65,,
